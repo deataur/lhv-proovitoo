@@ -6,7 +6,7 @@ Library           SeleniumLibrary
 *** Variables ***
 ${url}            https://www.lhv.ee/corp/leasing/index.cfm?l3=et&
 ${browser}        googlechrome
-${soidukihind}    tere
+${soidukihind}    10000
 ${sissemakseprotsent}    20
 ${sissemaksesumma}    10000
 ${perioodaasta}    3
