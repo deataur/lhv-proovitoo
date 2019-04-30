@@ -115,12 +115,12 @@ Sisesta sissemakse summa
     Element Text Should Be    initial    ${sissemaksesumma}
 
 Sisesta liisingu periood aasta
-    Select From List By Value    duration_years    {perioodaasta}
-    Element Text Should Be    duration_years    {perioodaasta}
+    Select From List By Value    duration_years    ${perioodaasta}
+    Element Text Should Be    duration_years    ${perioodaasta}
 
 Sisesta liisingu periood kuud
-    Select From List By Value    duration_months    {perioodkuu}
-    Element Text Should Be    duration_months    {perioodkuu}
+    Select From List By Value    duration_months    ${perioodkuu}
+    Element Text Should Be    duration_months    ${perioodkuu}
 
 Sisesta jääkväärtus protsent
     Input Text    reminder_percentage    ${jaakprotsent}
@@ -131,8 +131,8 @@ Sisesta jääkväärtus summa
     Element Text Should Be    reminder    ${jaaksumma}
 
 Sisesta maksepäev
-    Select From List By Value    payment_day    {maksepaev}
-    Element Text Should Be    payment_day    {maksepaev}
+    Select From List By Value    payment_day    ${maksepaev}
+    Element Text Should Be    payment_day    ${maksepaev}
 
 Kinnita vorm
     Click Button    Edasi
